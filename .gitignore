@@ -6,4 +6,9 @@ nuget.exe
 *.nupkg
 apidoc.exe
 *.dll
-.vs/
+.vs/.DS_Store
+.gradle/
+api-reference/.DS_Store
+concepts/.DS_Store
+**/.gradle
+.DS_Store
