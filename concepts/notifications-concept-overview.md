@@ -3,11 +3,14 @@ title: "Enabling human-centric notification experiences using Microsoft Graph no
 description: "Notifications are one of the most effective ways to re-engage with users of your application. A great notification experience can help open a near real-time communication channel between you and your application users, that in turn can increase app engagement at the right time, assist users with being more productive and alert them of important events or timely actions that may be required. "
 localization_priority: Priority
 ms.prod: "notifications"
+scenarios: "getting-started"
 ---
 
 # Enabling human-centric notification experiences using Microsoft Graph notifications
 
 Notifications are one of the most effective ways to reengage with your application users. A great notification experience can help open a near real-time communication channel between you and your users, and that in turn can increase app engagement at the right time, make users more productive, and alert them to important events or required actions.
+
+> [!VIDEO https://www.youtube-nocookie.com/embed/cmpPFhrS8ZA]
 
 Today, users can access your applications and services via a wide variety of platforms and form factors. This mix of devices requires that you understand and support multiplatform notification systems, map users to endpoints, and maintain notification state across devices. 
 
