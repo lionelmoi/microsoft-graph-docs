@@ -74,13 +74,13 @@ For more information about administrator roles, see [Assigning administrator rol
 
 ## Analytics resource permissions
 
-#### Delegated permissions
+### Delegated permissions
 
 |   Permission    |  Display String   |  Description | Admin Consent Required |
 |:-----------------------------|:-----------------------------------------|:-----------------|:-----------------|
 | _Analytics.Read_ |   Read all user activities statistics. | Allows the app to read user activities statistics without a signed-in user. | Yes |
 
-#### Application permissions
+### Application permissions
 
 None.
 
@@ -99,7 +99,7 @@ None.
 
 ## Administrative Units permissions
 
-#### Delegated permissions
+### Delegated permissions
 
 |   Permission    |  Display String   |  Description | Admin Consent Required | Microsoft Account supported |
 |:----------------|:------------------|:-------------|:-----------------------|:--------------|
@@ -107,7 +107,7 @@ None.
 | _AdministrativeUnit.ReadWrite.All_ |   Read and write administrative units  | Allows the app to create, read, update, and delete administrative units and manage administrative unit membership on behalf of the signed-in user. | Yes | No |
 
 
-#### Application permissions
+### Application permissions
 
 |   Permission    |  Display String   |  Description | Admin Consent Required |
 |:-----------------------------|:-----------------------------------------|:-----------------|:-----------------|
@@ -302,11 +302,11 @@ For more complex scenarios involving multiple permissions, see [Permission scena
 
 ## ChannelMessage permissions
 
-#### Delegated permissions
+### Delegated permissions
 
 None.
 
-#### Application permissions
+### Application permissions
 
 |   Permission    |  Display String   |  Description | Admin Consent Required | Microsoft Account supported |
 |:----------------|:------------------|:-------------|:-----------------------|:--------------|
@@ -926,13 +926,13 @@ For more complex scenarios involving multiple permissions, see [Permission scena
 
 ## On-premises Publishing Profiles permissions
 
-#### Delegated permissions
+### Delegated permissions
 
 |   Permission    |  Display String   |  Description | Admin Consent Required | Microsoft Account supported |
 |:----------------|:------------------|:-------------|:-----------------------|:--------------|
 | OnPremisesPublishingProfiles.ReadWrite.All |    Access  On-Premises Publishing Profiles| Allows the app to manage hybrid identity service configuration by creating, viewing, updating and deleting on-premises published resources, on-premises agents and agent groups, on behalf of the signed-in user. | No | No |
 
-#### Application permissions
+### Application permissions
 
 |   Permission    |  Display String   |  Description | Admin Consent Required | Microsoft Account supported |
 |:----------------|:------------------|:-------------|:-----------------------|:--------------|
@@ -968,7 +968,7 @@ With the Azure AD v2.0 endpoint, you specify the _offline\_access_ permission in
 
 ## Organization permissions
 
-#### Delegated permissions
+### Delegated permissions
 
 |   Permission    |  Display String   |  Description | Admin Consent Required | Microsoft Account supported |
 |:----------------|:------------------|:-------------|:-----------------------|:--------------|
@@ -977,7 +977,7 @@ With the Azure AD v2.0 endpoint, you specify the _offline\_access_ permission in
 
 <br/>
 
-#### Application permissions
+### Application permissions
 
 |Permission    |Display String   |Description |Admin Consent Required |
 |:-----------------------------|:-----------------------------------------|:-----------------|:-----------------|
@@ -1000,7 +1000,7 @@ With the Azure AD v2.0 endpoint, you specify the _offline\_access_ permission in
 
 ## Organizational contact permissions
 
-#### Delegated permissions
+### Delegated permissions
 
 |   Permission    |  Display String   |  Description | Admin Consent Required | Microsoft Account supported |
 |:----------------|:------------------|:-------------|:-----------------------|:--------------|
@@ -1008,7 +1008,7 @@ With the Azure AD v2.0 endpoint, you specify the _offline\_access_ permission in
 
 <br/>
 
-#### Application permissions
+### Application permissions
 
 |Permission    |Display String   |Description |Admin Consent Required |
 |:-----------------------------|:-----------------------------------------|:-----------------|:-----------------|
@@ -1053,13 +1053,13 @@ For more complex scenarios involving multiple permissions, see [Permission scena
 
 ## Places permissions
 
-#### Delegated permissions
+### Delegated permissions
 
 |   Permission    |  Display String   |  Description | Admin Consent Required | Microsoft Account supported |
 |:----------------|:------------------|:-------------|:-----------------------|:--------------|
 | _Place.Read.All_ |Read all company places |Allows the app to read company places (conference rooms and room lists) for calendar events and other applications. |No | No |
 
-#### Application permissions
+### Application permissions
 
 |   Permission    |  Display String   |  Description | Admin Consent Required |
 |:-----------------------------|:-----------------------------------------|:-----------------|:-----------------|
@@ -1123,14 +1123,14 @@ For more complex scenarios involving multiple permissions, see [Permission scena
 
 ## Role Management permissions
 
-#### Delegated permissions
+### Delegated permissions
 
 |   Permission    |  Display String   |  Description | Admin Consent Required | Microsoft Account supported |
 |:----------------|:------------------|:-------------|:-----------------------|:--------------|
 | _RoleManagement.Read.Directory_ | Read directory RBAC settings | Allows the app to read the role-based access control (RBAC) settings for your company's directory, on behalf of the signed-in user.  This includes reading directory role templates, directory roles and memberships. | Yes | No |
 | _RoleManagement.ReadWrite.Directory_ | Read and write directory RBAC settings | Allows the app to read and manage the role-based access control (RBAC) settings for your company's directory, on behalf of the signed-in user. This includes instantiating directory roles and managing directory role membership, and reading directory role templates, directory roles and memberships. | Yes | No |
 
-#### Application permissions
+### Application permissions
 
 |   Permission    |  Display String   |  Description | Admin Consent Required |
 |:----------------|:------------------|:-------------|:-----------------------|
@@ -1435,14 +1435,14 @@ The *CreatedByApp* constraint associated with this permission indicates the serv
 
 ## Feature rollout policy permissions
 
-#### Delegated permissions
+### Delegated permissions
 
 |   Permission    |  Display String   |  Description | Admin Consent Required | Microsoft Account supported |
 |:----------------|:------------------|:-------------|:-----------------------|:--------------|
 | _Policy.Read.All_ | Read your organization's policies | Allows the app to read your organization's policies on behalf of the signed-in user. | Yes | No |
 | _Policy.ReadWrite.FeatureRollout_ | Read and write your organization's feature rollout policies | Allows the app to read and write your organization's feature rollout policies on behalf of the signed-in user. Includes abilities to assign and remove users and groups to rollout of a specific feature. | Yes | No |
 
-#### Application permissions
+### Application permissions
 None.
 
 ### Remarks
